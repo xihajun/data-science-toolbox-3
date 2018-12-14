@@ -21,7 +21,7 @@ Maybe we can try to compare the False nagetive rate or something
 通过降维，kmeans 5维，可以创造新的feature PCA的feature也是新的 tsne的feature<br>
 kmeans 5维，主要的想法是将数据四种不同攻击类型分开，但是由于某些类型的数量太大，导致其余类型数据的比例太低<br>
 由此可能导致无法区分数据的kmeans，或许我可以将数据的量级重新排列一下，49万个数据，或许选最少的那个类型的大小将4份攻击筛选出来再进行kmeans分类<br>
-···
+```
 > length(which(connection_events$type=="u2r"))
 [1] 52
 > length(which(connection_events$type=="dos"))
@@ -31,5 +31,5 @@ kmeans 5维，主要的想法是将数据四种不同攻击类型分开，但是
 > length(which(connection_events$type=="r2l"))
 [1] 1126
 > 
-···
+```
 
