@@ -32,5 +32,9 @@ kmeans 5维，主要的想法是将数据四种不同攻击类型分开，但是
 [1] 1126
 > 
 ```
-研究一下数据比例差异巨大导致的数据分类问题
-https://blog.csdn.net/lxg0807/article/details/71440477
+研究一下数据比例差异巨大导致的数据分类问题<br>
+https://blog.csdn.net/lxg0807/article/details/71440477<br>
+https://www.quora.com/In-classification-how-do-you-handle-an-unbalanced-training-set<br>
+方案一：平均数据量<br>
+方案二：加权重<br>
+方案三：异常值检验，比如我仅仅通过Normal分别检验各种类型的攻击查看p值，或者通过攻击来检验normal<br>
