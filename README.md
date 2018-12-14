@@ -14,3 +14,12 @@ what is our baseline model
 how to compare the performance with the non-trivial model?  
 Maybe we can try to compare the False nagetive rate or something
 
+思路：
+1. 我们使用随机森林模型，作为简单模型
+2. 我们想找出主要的feature对于某个特定的网络攻击
+3. 如何找出主要的feature
+通过降维，kmeans 5维，可以创造新的feature PCA的feature也是新的 tsne的feature
+kmeans 5维，主要的想法是将数据四种不同攻击类型分开，但是由于某些类型的数量太大，导致其余类型数据的比例太低
+由此可能导致无法区分数据的kmeans，或许我可以将数据的量级重新排列一下，49万个数据，或许选最少的那个类型的大小将4份攻击筛选出来再进行kmeans分类
+
+
