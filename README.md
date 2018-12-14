@@ -33,4 +33,4 @@ kmeans 5维，主要的想法是将数据四种不同攻击类型分开，但是
 > 
 ```
 研究一下数据比例差异巨大导致的数据分类问题
-
+https://blog.csdn.net/lxg0807/article/details/71440477
