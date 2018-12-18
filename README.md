@@ -38,3 +38,7 @@ https://www.quora.com/In-classification-how-do-you-handle-an-unbalanced-training
 方案一：平均数据量<br>
 方案二：加权重<br>
 方案三：异常值检验，比如我仅仅通过Normal分别检验各种类型的攻击查看p值，或者通过攻击来检验normal<br>
+
+
+NORMAL too much if i choose normal randomly to reduce it size 
+it will influence the result?
